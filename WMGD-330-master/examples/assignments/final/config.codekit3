@@ -61,6 +61,58 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/designs\/DesktopHifi\/LightMode.png" : {
+      "ft" : 32768,
+      "iS" : 4548637,
+      "oA" : 0,
+      "oAP" : "\/designs\/DesktopHifi\/LightMode.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/designs\/iMacHifi\/LightMode.png" : {
+      "ft" : 32768,
+      "iS" : 3887981,
+      "oA" : 0,
+      "oAP" : "\/designs\/iMacHifi\/LightMode.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/designs\/PhoneHifi\/LightMode.png" : {
+      "ft" : 32768,
+      "iS" : 1047353,
+      "oA" : 0,
+      "oAP" : "\/designs\/PhoneHifi\/LightMode.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/designs\/TabletHifi\/LightMode.png" : {
+      "ft" : 32768,
+      "iS" : 2837901,
+      "oA" : 0,
+      "oAP" : "\/designs\/TabletHifi\/LightMode.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
