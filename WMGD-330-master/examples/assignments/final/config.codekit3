@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/deploy\/contact.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/contact.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -20,6 +28,14 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/homepage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/homepage.html",
+      "oF" : 0
     },
     "\/deploy\/img\/favicon.ico" : {
       "cB" : 0,
@@ -34,6 +50,110 @@
       "iS" : 7745,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/iMacHifi\/Facebook-icon.png" : {
+      "ft" : 32768,
+      "iS" : 463,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/iMacHifi\/Facebook-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/iMacHifi\/Instagram-icon.png" : {
+      "ft" : 32768,
+      "iS" : 597,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/iMacHifi\/Instagram-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/iMacHifi\/Pinterest-icon.png" : {
+      "ft" : 32768,
+      "iS" : 600,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/iMacHifi\/Pinterest-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/iMacHifi\/Yelp-icon.png" : {
+      "ft" : 32768,
+      "iS" : 503,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/iMacHifi\/Yelp-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/PhoneHifi\/bag.png" : {
+      "ft" : 32768,
+      "iS" : 683,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/PhoneHifi\/bag.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/PhoneHifi\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 1197,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/PhoneHifi\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/PhoneHifi\/plus.png" : {
+      "ft" : 32768,
+      "iS" : 242,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/PhoneHifi\/plus.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/PhoneHifi\/search.png" : {
+      "ft" : 32768,
+      "iS" : 823,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/PhoneHifi\/search.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -60,6 +180,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/deploy\/page.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/page.html",
+      "oF" : 0
     },
     "\/designs\/DesktopHifi\/LightMode.png" : {
       "ft" : 32768,
@@ -112,6 +240,141 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/dev\/_base.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/_base.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/components\/footer-column-1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/footer-column-1.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer-column-2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/footer-column-2.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer-column-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/footer-column-2.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/head.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/header-column-1" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/header-column-1",
+      "oF" : 0
+    },
+    "\/dev\/components\/header-column-2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/header-column-2",
+      "oF" : 0
+    },
+    "\/dev\/components\/header-column-3" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/header-column-3",
+      "oF" : 0
+    },
+    "\/dev\/components\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/primary-cta.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/primary-cta.html",
+      "oF" : 0
+    },
+    "\/dev\/contact.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/contact.html",
+      "oF" : 0
+    },
+    "\/dev\/contact.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/contact.html",
+      "oF" : 0
+    },
+    "\/dev\/homepage.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/page.html",
+      "oF" : 2
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
@@ -282,6 +545,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/components\/_primary-cta.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_primary-cta.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -326,22 +604,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
-    },
-    "\/dev\/section-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-1.html",
-      "oF" : 0
-    },
-    "\/dev\/section-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/section-2.html",
-      "oF" : 0
     }
   },
   "hooks" : [
