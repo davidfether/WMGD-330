@@ -1,0 +1,17 @@
+.footer {
+    background-color: $red-dark;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 4;
+    @include sm {
+        color: $pink;
+    }
+    @include md {
+        color: $black;
+    }
+    @include lg {
+        color: $blue;
+    }
+}

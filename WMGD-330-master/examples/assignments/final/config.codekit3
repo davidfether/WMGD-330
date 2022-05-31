@@ -58,6 +58,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/HeroImage.jpg" : {
+      "ft" : 16384,
+      "iS" : 123957,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/HeroImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/iMacHifi\/Facebook-icon.png" : {
       "ft" : 32768,
       "iS" : 463,
@@ -264,14 +277,6 @@
       "oAP" : "\/dev\/components\/footer-column-1.html",
       "oF" : 0
     },
-    "\/dev\/components\/footer-column-2.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/components\/footer-column-2.html",
-      "oF" : 0
-    },
     "\/dev\/components\/footer-column-2.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -280,19 +285,11 @@
       "oAP" : "\/dev\/components\/footer-column-2.html",
       "oF" : 0
     },
-    "\/dev\/components\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/components\/footer.html",
-      "oF" : 0
-    },
     "\/dev\/components\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/components\/footer.html",
       "oF" : 0
     },
@@ -348,7 +345,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/components\/primary-cta.html",
       "oF" : 0
     },

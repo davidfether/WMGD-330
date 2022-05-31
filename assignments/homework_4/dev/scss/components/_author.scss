@@ -1,0 +1,17 @@
+.main-content-author {
+    background-color: $purple;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 3;
+    @include sm {
+        text-align: right;
+    }
+    @include md {
+        color: left;
+    }
+    @include lg {
+        color: center;
+    }
+}

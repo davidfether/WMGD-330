@@ -1,0 +1,20 @@
+.header-wrapper {
+      text-align: right;
+    }
+
+ .header-icon {
+    text-align: center;
+    }
+
+.header__link {
+        color: $bronze;
+        margin-right: 45px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+ .header__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    

@@ -326,3 +326,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0; }
+
+.social-icon {
+  margin-right: 15px; }
+
+.social-wrapper {
+  text-align: left; }
+
+.footer__content {
+  display: flex;
+  justify-content: space-between; }
