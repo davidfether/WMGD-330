@@ -1,0 +1,35 @@
+.hero {
+	background-image: url('../img/hero.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 262px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	@include md {
+		height: 515px;
+	}
+	@include lg {
+		height: 686px;
+	}
+}
+
+.hero__heading {
+	color: $white;
+	font-size: 22px;
+	@include md {
+		font-size: 26px;
+	}
+	@include lg {
+		font-size: 72px;
+	}
+}
+.hero__button {
+	color: $white;
+	display: inline-block;
+	margin-top: 5px;
+	text-decoration: none;
+	background-color: $gray;
+	padding: 10px 15px;
+}

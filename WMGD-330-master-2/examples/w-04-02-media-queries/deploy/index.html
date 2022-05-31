@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/3c79b583ac.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Selectors</title>
+</head>
+
+<body>
+
+    <section class="container-grid" id="section-1">
+        <div class="grid-content">
+            <section>
+                <div>
+                    <img src="img/eye.svg" alt="eye icon">
+                </div>
+                <h1>Media Queries</h1>
+            </section>
+        </div>
+    </section>
+    <section class="container-grid sections" id="section-2">
+            <div class="grid-content">
+                <section>
+                    <article class="content-container">
+                        <div>
+                            <h1 class="section-title">What is a Media Query?</h1>
+                            <p>Media queries is a CSS3 module allowing content rendering to adapt to conditions such as screen resolution (e.g. smartphone screen vs. computer screen). It became a W3C recommended standard in June 2012, and is a cornerstone technology of responsive web design</p>
+        
+                            <p class="blue-call-out">Media Queries should be organic, and based on the design of the website, or a specific device.</p>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </section>
+    <section class="container-grid sections" id="section-3">
+                <div class="grid-content">
+                    <section>
+                        <article class="content-container">
+                            <div>
+                                <h1 class="section-title">What does a Media Query look like?<span>( There are 2 parts of a Media Query. )</span></h1>
+                                
+                                <section id="query-content">
+                                    <div>
+                                        <h2>Part 1:</h2>
+                                        <p>Define the name of the Media Query.You can give your Media Query a name inside the _mixins.scss file.</p>
+            
+                                        <section class="code-sample">
+                                            <p>// Small devices</p>
+                                            <p>@mixin sm {</p>
+                                                <p>@media (min-width: #{$screen-sm-min}) {</p>
+                                                    <p>@content;</p>
+                                                <p>}</p>
+                                            <p>}</p>
+                                        </section>
+            
+                                        <section>
+                                            <p>My template folder gave you 4 Media Queries with the names of:</p>
+                                            <ul>
+                                                <li>sm <span>( small )</li>
+                                                <li>md <span>( medium )</span></li>
+                                                <li>lg <span>( large )</span></li>
+                                                <li>xl <span>( extra large )</span></li>
+                                            </ul>
+                                        </section>
+                                    </div>
+            
+            
+                                    <div>
+                                        <h2>Part 2:</h2>
+                                        <p>Define the size of the Media Query.You will set the size of the Media Query inside the _variables.scss file.</p>
+            
+                                        <section class="code-sample">
+                                            <p>// Small tablets and large smartphones (landscape view)</p>
+                                            <p>$screen-sm-min: 576px;</p>
+                                        </section>
+            
+                                        <section>
+                                            <p>My template folder gave you 4 Media Queries sizes of:</p>
+                                            <ul>
+                                                <li>567px <span>( small )</span></li>
+                                                <li>768px <span>( medium )</span></li>
+                                                <li>992px <span>( large )</span></li>
+                                                <li>1200px <span>( extra large )</span></li>
+                                            </ul>
+                                        </section>
+            
+                                    </div>
+                                </section>
+                                
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+
+    <script src="js/scripts-min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+.article-block__section {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  @include md {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  @include lg {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+}
+.article-block__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: $slate;
+  @include md {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  @include lg {
+    font-size: 37px;
+    line-height: 50px;
+  }
+}
+
+.article-block__grid {
+  display: flex;
+  flex-direction: column;
+  @include md {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.article-block {
+  background: $gray-light;
+  box-shadow: 0 1px 1px rgba(42, 48, 54, 0.3);
+  width: 30%;
+  margin-bottom: 16px;
+  @include md {
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+}
+
+.article-block__wrapper {
+  padding: 15px;
+}
+
+.article-block__image {
+  width: 100%;
+}
+
+.article-block__heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 30px;
+}
+
+.article-block__body {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.article-block__cta {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  background: $yellow;
+  padding: 5px 12px;
+  color: $black;
+  text-decoration: none;
+}

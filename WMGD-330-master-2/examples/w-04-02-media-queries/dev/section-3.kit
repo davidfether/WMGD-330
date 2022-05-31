@@ -1,0 +1,60 @@
+<section class="container-grid sections" id="section-3">
+    <div class="grid-content">
+        <section>
+            <article class="content-container">
+                <div>
+                    <h1 class="section-title">What does a Media Query look like?<span>( There are 2 parts of a Media Query. )</span></h1>
+                    
+                    <section id="query-content">
+                        <div>
+                            <h2>Part 1:</h2>
+                            <p>Define the name of the Media Query.You can give your Media Query a name inside the _mixins.scss file.</p>
+
+                            <section class="code-sample">
+                                <p>// Small devices</p>
+                                <p>@mixin sm {</p>
+                                    <p>@media (min-width: #{$screen-sm-min}) {</p>
+                                        <p>@content;</p>
+                                    <p>}</p>
+                                <p>}</p>
+                            </section>
+
+                            <section>
+                                <p>My template folder gave you 4 Media Queries with the names of:</p>
+                                <ul>
+                                    <li>sm <span>( small )</li>
+                                    <li>md <span>( medium )</span></li>
+                                    <li>lg <span>( large )</span></li>
+                                    <li>xl <span>( extra large )</span></li>
+                                </ul>
+                            </section>
+                        </div>
+
+
+                        <div>
+                            <h2>Part 2:</h2>
+                            <p>Define the size of the Media Query.You will set the size of the Media Query inside the _variables.scss file.</p>
+
+                            <section class="code-sample">
+                                <p>// Small tablets and large smartphones (landscape view)</p>
+                                <p>$screen-sm-min: 576px;</p>
+                            </section>
+
+                            <section>
+                                <p>My template folder gave you 4 Media Queries sizes of:</p>
+                                <ul>
+                                    <li>567px <span>( small )</span></li>
+                                    <li>768px <span>( medium )</span></li>
+                                    <li>992px <span>( large )</span></li>
+                                    <li>1200px <span>( extra large )</span></li>
+                                </ul>
+                            </section>
+
+                        </div>
+                    </section>
+                    
+                </div>
+            </article>
+        </section>
+    </div>
+</section>

@@ -1,0 +1,77 @@
+.example-1__newsletter {
+	background: rgba(247, 249, 238, 0.75);
+	padding: 15px;
+}
+
+.example-1__bg {
+	padding: 24px 32px;
+	background-image: url('../img/example-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ask-us-form {
+	border: 5px solid #6F8667;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ask-us-form__email {
+	border: 1px solid #CECECE;
+	border-radius: 16px;
+}
+
+.ask-us-form__heading {
+	background-color: $white;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -16px;
+}
+
+.ask-us-form__email-section {
+	background-color: $white;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: -12px;
+}
+
+.slideshow {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.slidehow__heading {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 61px;
+	text-align: center;
+
+	/* Grape */
+
+	color: #4C0564;
+}
+
+.slideshow__dots {
+	width: 210.03px;
+	height: 42.01px;
+}
+
+.slideshow__middle {
+	display: flex;
+	align-items: center;
+}
+
+.slideshow__icon {
+	width: 75px;
+	height: 75px;
+}
+
+.slideshow__poster {
+	padding: 200px 375px;
+	background-image: url('../img/video.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 25px;
+}

@@ -1,0 +1,32 @@
+.collage__row {
+	@include md() {
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+	}
+}
+.collage__image {
+	width: 100%;
+}
+.collage__image-1 {
+	@include md() {
+		width: 50%;
+	}
+	@include lg() {
+		width: 59%;
+	}
+}
+.collage__image__container {
+	@include md() {
+		width: 50%;
+	}
+	@include lg() {
+		width: 30%;
+	}
+}
+.collage__image-3 {
+	display: none;
+	@include lg() {
+		display: block;
+	}
+}

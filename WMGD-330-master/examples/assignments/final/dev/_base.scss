@@ -6,3 +6,17 @@
 	margin: 0 auto;
 	max-width: 1200px;
 }
+
+.containter displaygrid grid template area content. content grid area content
+
+.container{
+	display: grid;
+	grid-template-columns: 16px auto 16px;
+	grid-template-areas: ", content, ";
+	.content{
+		grid-area: content;
+
+
+
+	}
+}
