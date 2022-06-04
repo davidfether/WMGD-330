@@ -1,0 +1,22 @@
+.hero_image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero_type {
+    text-align: center;
+    color: $bronze;
+    width: 70%;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+
+    @include md {
+        font-size: 48px;
+    }
+
+    @include lg {
+        font-size: 64px;
+    }
+}

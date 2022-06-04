@@ -1,20 +1,35 @@
-.header-wrapper {
-      text-align: right;
-    }
+.header {
+    background: $seashell;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
 
- .header-icon {
-    text-align: center;
-    }
+.plus_icon {
+    width: 3%;
+    height: 3%;
 
-.header__link {
-        color: $bronze;
-        margin-right: 45px;
-        text-decoration: none;
-        font-size: 16px;
+    @include lg {
+        display: none;
     }
+}
 
- .header__content {
-        display: flex;
-        justify-content: space-between;
+.right_icons {
+    display: block;
+    align-items: right;
+    width: 10%;
+    height: 10%;
+}
+
+
+.header_navigation {
+    display: none;
+    color: $bronze;
+    text-decoration: none;
+
+    @include lg {
+        display: block;
     }
-    
+}

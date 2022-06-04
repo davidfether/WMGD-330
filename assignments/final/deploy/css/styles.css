@@ -327,6 +327,130 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0; }
 
+.header {
+  background: #FCF9F7;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center; }
+
+.plus_icon {
+  width: 3%;
+  height: 3%; }
+  @media (min-width: 992px) {
+    .plus_icon {
+      display: none; } }
+.right_icons {
+  display: block;
+  align-items: right;
+  width: 10%;
+  height: 10%; }
+
+.header_navigation {
+  display: none;
+  color: #421908;
+  text-decoration: none; }
+  @media (min-width: 992px) {
+    .header_navigation {
+      display: block; } }
+.hero_image {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.hero_type {
+  text-align: center;
+  color: #421908;
+  width: 70%;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .hero_type {
+      font-size: 48px; } }
+  @media (min-width: 992px) {
+    .hero_type {
+      font-size: 64px; } }
+.services_type {
+  text-align: center;
+  color: #421908;
+  width: 70%;
+  padding-top: 32px;
+  margin: 0 auto; }
+
+.body_type {
+  text-align: center;
+  color: #421908;
+  font-size: 24px;
+  width: 70%;
+  padding-top: 32px;
+  margin: 0 auto; }
+
+.services_container {
+  position: relative;
+  width: 50%; }
+
+.floral_image {
+  width: 100%;
+  height: auto;
+  padding: 16px; }
+
+.floral_type {
+  padding: 16px;
+  top: 50%;
+  left: 50%;
+  color: #421908;
+  font-size: 24px; }
+
+.services_container {
+  position: relative;
+  width: 50%; }
+
+.plants_image {
+  width: 100%;
+  height: auto;
+  padding: 16px; }
+
+.plants_type {
+  padding: 16px;
+  top: 50%;
+  left: 50%;
+  color: #421908;
+  font-size: 24px; }
+
+.services_container {
+  position: relative;
+  width: 50%; }
+
+.cafe_image {
+  width: 100%;
+  height: auto;
+  padding: 16px; }
+
+.cafe_type {
+  padding: 16px;
+  top: 50%;
+  left: 50%;
+  color: #421908;
+  font-size: 24px; }
+
+.services_container {
+  position: relative;
+  width: 50%; }
+
+.gifts_image {
+  width: 100%;
+  height: auto;
+  padding: 16px; }
+
+.gifts_type {
+  padding: 16px;
+  top: 50%;
+  left: 50%;
+  color: #421908;
+  font-size: 24px; }
+
 .social-icon {
   margin-right: 15px; }
 
@@ -336,6 +460,3 @@ h1, h2, h3, h4, h5, h6 {
 .footer__content {
   display: flex;
   justify-content: space-between; }
-
-* {
-  color: red; }

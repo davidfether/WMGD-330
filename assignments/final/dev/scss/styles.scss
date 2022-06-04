@@ -8,4 +8,8 @@
 @import 'base/_normalize';
 @import 'base/_base';
 @import 'base/_typography';
+
+@import 'components/header';
+@import 'components/hero';
+@import 'components/_main-content.scss';
 @import 'components/_footer';

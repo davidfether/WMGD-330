@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
     "\/deploy\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -37,6 +45,19 @@
       "oAP" : "\/deploy\/homepage.html",
       "oF" : 0
     },
+    "\/deploy\/img\/cafe_home.png" : {
+      "ft" : 32768,
+      "iS" : 488258,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cafe_home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
@@ -58,6 +79,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/floral_home.jpg" : {
+      "ft" : 16384,
+      "iS" : 351589,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/floral_home.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/gifts_home.png" : {
+      "ft" : 32768,
+      "iS" : 783161,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/gifts_home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero_home.png" : {
+      "ft" : 32768,
+      "iS" : 1202191,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero_home.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/HeroImage.jpg" : {
       "ft" : 16384,
       "iS" : 123957,
@@ -71,105 +131,53 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/iMacHifi\/Facebook-icon.png" : {
-      "ft" : 32768,
-      "iS" : 463,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/iMacHifi\/Facebook-icon.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/iMacHifi\/Instagram-icon.png" : {
-      "ft" : 32768,
-      "iS" : 597,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/iMacHifi\/Instagram-icon.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/iMacHifi\/Pinterest-icon.png" : {
-      "ft" : 32768,
-      "iS" : 600,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/iMacHifi\/Pinterest-icon.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/iMacHifi\/Yelp-icon.png" : {
-      "ft" : 32768,
-      "iS" : 503,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/iMacHifi\/Yelp-icon.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/PhoneHifi\/bag.png" : {
-      "ft" : 32768,
-      "iS" : 683,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/PhoneHifi\/bag.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/PhoneHifi\/logo.png" : {
+    "\/deploy\/img\/logo.png" : {
       "ft" : 32768,
       "iS" : 1197,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/PhoneHifi\/logo.png",
+      "oAP" : "\/deploy\/img\/logo.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/PhoneHifi\/plus.png" : {
+    "\/deploy\/img\/plants_home.png" : {
       "ft" : 32768,
-      "iS" : 242,
+      "iS" : 722920,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/PhoneHifi\/plus.png",
+      "oAP" : "\/deploy\/img\/plants_home.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/PhoneHifi\/search.png" : {
+    "\/deploy\/img\/plus.png" : {
       "ft" : 32768,
-      "iS" : 823,
+      "iS" : 542,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/PhoneHifi\/search.png",
+      "oAP" : "\/deploy\/img\/plus.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/RightIcons.png" : {
+      "ft" : 32768,
+      "iS" : 4542,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/RightIcons.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -269,27 +277,11 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/components\/footer-column-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/footer-column-1.html",
-      "oF" : 0
-    },
-    "\/dev\/components\/footer-column-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/components\/footer-column-2.html",
-      "oF" : 0
-    },
     "\/dev\/components\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/components\/footer.html",
       "oF" : 0
     },
@@ -301,36 +293,36 @@
       "oAP" : "\/dev\/components\/head.html",
       "oF" : 0
     },
-    "\/dev\/components\/header-column-1" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/components\/header-column-1",
-      "oF" : 0
-    },
-    "\/dev\/components\/header-column-2" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/components\/header-column-2",
-      "oF" : 0
-    },
-    "\/dev\/components\/header-column-3" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/components\/header-column-3",
-      "oF" : 0
-    },
     "\/dev\/components\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/components\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/main_content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/main_content.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/primary-cta.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/components\/primary-cta.html",
       "oF" : 0
     },
     "\/dev\/components\/primary-cta.kit" : {
@@ -356,14 +348,6 @@
       "oA" : 0,
       "oAP" : "\/dev\/contact.html",
       "oF" : 0
-    },
-    "\/dev\/homepage.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/page.html",
-      "oF" : 2
     },
     "\/dev\/index.kit" : {
       "cB" : 0,
