@@ -8,19 +8,17 @@
 
 
 .body_type {
-    text-align: center;
+    text-align: left;
     color: $bronze;
     font-size: 24px;
     width: 70%;
     padding-top: 32px;
     margin: 0 auto;
+
+    @include lg {
+        text-align: center;
+    }
 }
-
-
-
-
-
-
 
 .services_container {
     position: relative;
@@ -61,7 +59,6 @@
 }
 
 
-
 .services_container {
     position: relative;
     width: 50%;
@@ -98,4 +95,64 @@
     left: 50%;
     color: $bronze;
     font-size: 24px;
+}
+
+.gifts_body {
+    padding: 16px;
+    bottom: 50% left;
+    color: $bronze;
+    font-size: 24px;
+}
+
+.cafe2_image {
+    display: flex;
+    justify-content: center;
+}
+
+.cafe2_type {
+    padding: 16px;
+    top: 50%;
+    left: 50%;
+    color: $bronze;
+    font-size: 32px;
+    text-align: center;
+}
+
+.cafe_body {
+    padding: 16px;
+    top: 50%;
+    left: 50%;
+    color: $bronze;
+    font-size: 16px;
+    text-align: left;
+}
+
+.cafe2_image {
+    margin: auto;
+    display: block;
+    width: 90%;
+}
+
+.community_type {
+    padding: 16px;
+    top: 50%;
+    left: 50%;
+    color: $bronze;
+    font-size: 32px;
+    text-align: left;
+}
+
+.community_body {
+    padding: 16px;
+    top: 50%;
+    left: 50%;
+    color: $bronze;
+    font-size: 16px;
+    text-align: left;
+}
+
+.community_image {
+    margin: auto;
+    display: block;
+    width: 90%;
 }

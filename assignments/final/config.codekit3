@@ -58,6 +58,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/cafe2_home.jpg" : {
+      "ft" : 16384,
+      "iS" : 138187,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/cafe2_home.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/community_home.jpg" : {
+      "ft" : 16384,
+      "iS" : 124267,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/community_home.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
@@ -92,15 +118,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/gifts_home.png" : {
-      "ft" : 32768,
-      "iS" : 783161,
+    "\/deploy\/img\/gifts_home.jpg" : {
+      "ft" : 16384,
+      "iS" : 1299646,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/gifts_home.png",
+      "oAP" : "\/deploy\/img\/gifts_home.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
