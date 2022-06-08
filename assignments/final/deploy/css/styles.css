@@ -377,7 +377,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #421908;
   width: 70%;
   padding-top: 32px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 32px; }
 
 .body_type {
   text-align: left;
@@ -385,6 +386,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   width: 70%;
   padding-top: 32px;
+  padding-bottom: 32px;
   margin: 0 auto; }
   @media (min-width: 992px) {
     .body_type {
@@ -396,14 +398,17 @@ h1, h2, h3, h4, h5, h6 {
 .floral_image {
   width: 100%;
   height: auto;
-  padding: 16px; }
+  padding: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .floral_type {
   padding: 16px;
   top: 50%;
   left: 50%;
   color: #421908;
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: left; }
 
 .services_container {
   position: relative;
@@ -412,30 +417,47 @@ h1, h2, h3, h4, h5, h6 {
 .plants_image {
   width: 100%;
   height: auto;
-  padding: 16px; }
+  padding: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .plants_type {
   padding: 16px;
   top: 50%;
   left: 50%;
   color: #421908;
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: left; }
 
+.services_image {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 8px;
+  padding-bottom: 0px;
+  background-color: #F3DFDA; }
+  @media (min-width: 992px) {
+    .services_image {
+      flex-wrap: nowrap; } }
 .services_container {
   position: relative;
   width: 50%; }
-
+  @media (min-width: 992px) {
+    .services_container {
+      width: 25%; } }
 .cafe_image {
   width: 100%;
   height: auto;
-  padding: 16px; }
+  padding: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .cafe_type {
   padding: 16px;
   top: 50%;
   left: 50%;
   color: #421908;
-  font-size: 24px; }
+  font-size: 24px;
+  text-align: left; }
 
 .services_container {
   position: relative;
@@ -444,7 +466,9 @@ h1, h2, h3, h4, h5, h6 {
 .gifts_image {
   width: 100%;
   height: auto;
-  padding: 16px; }
+  padding: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .gifts_type {
   padding: 16px;
@@ -465,6 +489,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .cafe2_type {
   padding: 16px;
+  padding-top: 32px;
+  padding-bottom: 64px;
   top: 50%;
   left: 50%;
   color: #421908;
@@ -473,6 +499,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cafe_body {
   padding: 16px;
+  padding-bottom: 0px;
   top: 50%;
   left: 50%;
   color: #421908;
@@ -485,12 +512,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 90%; }
 
 .community_type {
-  padding: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   top: 50%;
   left: 50%;
   color: #421908;
   font-size: 32px;
-  text-align: left; }
+  text-align: center; }
 
 .community_body {
   padding: 16px;
@@ -504,6 +532,31 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
   display: block;
   width: 90%; }
+
+.newsletter_type {
+  padding-left: 32px;
+  top: 50%;
+  left: 50%;
+  color: #421908;
+  font-size: 24px;
+  text-align: left; }
+
+.newsletter_body {
+  padding-left: 32px;
+  top: 50%;
+  left: 50%;
+  color: #421908;
+  font-size: 16px;
+  text-align: left; }
+
+.newsletter_container_input {
+  text-align: left;
+  color: #421908;
+  font-size: 24px;
+  width: 70%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: 32px; }
 
 .social-icon {
   margin-right: 15px; }
