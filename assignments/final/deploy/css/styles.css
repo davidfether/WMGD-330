@@ -454,11 +454,7 @@ h6 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%; }
-
-@media (min-width: 576px) {
-  .garden_home {
-    display: none; } }
+  width: 50%; }
 
 .cafe_image {
   width: 100%;
@@ -576,7 +572,6 @@ h6 {
   margin-left: 32px;
   outline-width: 1.5px;
   outline-color: #90817D;
-  background-color: #FCF9F7;
   border-radius: 0px 0px 8px 8px; }
 
 .newsletter_button {
@@ -653,7 +648,6 @@ h6 {
   width: 95%;
   outline-width: 1.5px;
   outline-color: #90817D;
-  background-color: #FCF9F7;
   border-radius: 0px 0px 8px 8px; }
   @media (min-width: 992px) {
     .name_container_input {
@@ -668,7 +662,6 @@ h6 {
   margin-right: 24px;
   outline-width: 1.5px;
   outline-color: #90817D;
-  background-color: #FCF9F7;
   border-radius: 0px 0px 8px 8px;
   margin-bottom: 24px;
   margin-right: 16px; }
@@ -684,7 +677,6 @@ h6 {
   margin-left: 24px;
   outline-width: 1.5px;
   outline-color: #90817D;
-  background-color: #FCF9F7;
   border-radius: 0px 0px 8px 8px;
   margin-bottom: 24px; }
   @media (min-width: 992px) {
@@ -700,7 +692,6 @@ h6 {
   margin-right: 24px;
   outline-width: 1.5px;
   outline-color: #90817D;
-  background-color: #FCF9F7;
   border-radius: 0px 0px 8px 8px;
   margin-bottom: 24px; }
   @media (min-width: 992px) {
@@ -723,6 +714,67 @@ h6 {
 .contact_header1 {
   padding: 24px;
   padding-top: 16px; }
+
+.contact_container_input_1 {
+  text-align: left;
+  color: #421908;
+  font-size: 16px;
+  padding: 8px;
+  width: 95%;
+  margin-left: 24px;
+  margin-right: 24px;
+  outline-width: 1.5px;
+  outline-color: #90817D;
+  border-radius: 0px 0px 8px 8px; }
+  @media (min-width: 992px) {
+    .contact_container_input_1 {
+      width: 98%; } }
+.contact_container_input_2 {
+  text-align: left;
+  color: #421908;
+  font-size: 16px;
+  padding: 8px;
+  width: 95%;
+  margin-left: 24px;
+  margin-right: 24px;
+  outline-width: 1.5px;
+  outline-color: #90817D;
+  border-radius: 0px 0px 8px 8px; }
+  @media (min-width: 992px) {
+    .contact_container_input_2 {
+      width: 98%; } }
+.contact_container_input_3 {
+  text-align: left;
+  color: #421908;
+  font-size: 16px;
+  padding: 8px;
+  width: 95%;
+  margin-left: 24px;
+  margin-right: 24px;
+  outline-width: 1.5px;
+  outline-color: #90817D;
+  border-radius: 0px 0px 8px 8px;
+  margin-bottom: 24px; }
+  @media (min-width: 992px) {
+    .contact_container_input_3 {
+      width: 98%; } }
+.contact_container_input_4 {
+  text-align: left;
+  color: #421908;
+  font-size: 16px;
+  padding: 8px;
+  width: 95%;
+  margin-left: 24px;
+  margin-right: 24px;
+  outline-width: 1.5px;
+  outline-color: #90817D;
+  border-radius: 0px 0px 8px 8px; }
+  @media (min-width: 992px) {
+    .contact_container_input_4 {
+      width: 98%; } }
+.contact_header_2 {
+  padding: 32px;
+  padding-bottom: 32px; }
 
 .social-icon {
   margin: 16px; }
