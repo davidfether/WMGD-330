@@ -89,6 +89,20 @@
     }
 }
 
+.carousel_container {
+    padding-top: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.garden_home {
+    @include sm {
+        display: none;
+    }
+}
+
 .cafe_image {
     width: 100%;
     height: auto;
@@ -189,6 +203,12 @@
     margin: auto;
     display: block;
     width: 90%;
+
+    @include lg {
+        width: 97%;
+    }
+
+
 }
 
 .newsletter_type {
@@ -214,13 +234,14 @@
 .newsletter_container_input {
     text-align: left;
     color: $bronze;
-    font-size: 24px;
-    width: 70%;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding: 16px;
-    margin-left: px;
+    font-size: 16px;
+    padding: 8px;
+    width: 50%;
+    margin-left: 32px;
+    outline-width: 1.5px;
+    outline-color: #90817D;
     background-color: #FCF9F7;
+    border-radius: 0px 0px 8px 8px;
 
 }
 
@@ -229,6 +250,172 @@
     color: #FFFF;
     font-size: 16px;
     outline: 0;
-    padding: 4px 8px;
-    border: 0
+    padding: 8px;
+    margin-left: 8px;
+    border: 0;
+    border-radius: 0px 0px 8px 8px;
+    width: 15%;
+
+    @include lg {
+        width: 10%;
+    }
+
+
+}
+
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    background: #D2ECC5;
+    padding-top: 46px;
+    padding-bottom: 40px;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 16px 16px;
+
+    @include lg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 88%;
+    }
+}
+
+
+
+
+
+
+
+
+.contact_image {
+    margin: auto;
+    display: block;
+}
+
+
+
+.contact_body {
+    padding: 16px;
+    top: 50%;
+    left: 50%;
+    color: $bronze;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.contact_information {
+    position: relative;
+    background-color: #F3DFDA;
+}
+
+.mail_icon {
+
+    @include lg {
+        margin: auto;
+        display: block;
+        flex-direction: row;
+    }
+}
+
+
+.clock_icon {
+
+    @include lg {
+        margin: auto;
+        display: block;
+        flex-direction: row;
+    }
+}
+
+.pin_icon {
+
+    @include lg {
+        margin: auto;
+        display: block;
+        flex-direction: row;
+    }
+}
+
+.name_container_input {
+    text-align: left;
+    color: $bronze;
+    font-size: 16px;
+    padding: 8px;
+    width: 30%;
+    margin-left: 16px;
+    outline-width: 1.5px;
+    outline-color: #90817D;
+    background-color: #FCF9F7;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.email_container_input {
+    text-align: left;
+    color: $bronze;
+    font-size: 16px;
+    padding: 8px;
+    width: 30%;
+    margin-left: 16px;
+    outline-width: 1.5px;
+    outline-color: #90817D;
+    background-color: #FCF9F7;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 24px;
+
+    @include lg {
+        width: 75%;
+    }
+}
+
+.address_container_input {
+    text-align: left;
+    color: $bronze;
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    margin-left: 16px;
+    outline-width: 1.5px;
+    outline-color: #90817D;
+    background-color: #FCF9F7;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 24px;
+}
+
+.message_container_input {
+    text-align: left;
+    color: $bronze;
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    margin-left: 16px;
+    outline-width: 1.5px;
+    outline-color: #90817D;
+    background-color: #FCF9F7;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 24px;
+
+    @include lg {
+        padding: 75px;
+    }
+}
+
+.contact_button {
+    background: #7E8E76;
+    color: #FFFF;
+    font-size: 16px;
+    outline: 0;
+    padding: 8px;
+    margin-left: 16px;
+    border: 0;
+    border-radius: 0px 0px 8px 8px;
+    width: 15%;
+
+
+}
+
+.message_text {
+    text-align: left;
 }

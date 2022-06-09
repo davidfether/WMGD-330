@@ -1,12 +1,14 @@
 .social-icon {
-    margin-right: 15px;
+    margin: 16px;
 }
 
-.social-wrapper {
-    text-align: left;
+.footer_type {
+    color: #421908;
+    margin: auto;
 }
 
-.footer__content {
+.social {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
 }
