@@ -307,8 +307,10 @@
 
 
 .contact_information {
-    position: relative;
     background-color: #F3DFDA;
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+
 }
 
 .mail_icon {
@@ -344,12 +346,17 @@
     color: $bronze;
     font-size: 16px;
     padding: 8px;
-    width: 30%;
-    margin-left: 16px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    width: 95%;
     outline-width: 1.5px;
     outline-color: #90817D;
     background-color: #FCF9F7;
     border-radius: 0px 0px 8px 8px;
+
+    @include lg {
+        width: 98%;
+    }
 }
 
 .email_container_input {
@@ -357,16 +364,18 @@
     color: $bronze;
     font-size: 16px;
     padding: 8px;
-    width: 30%;
-    margin-left: 16px;
+    width: 95%;
+    margin-left: 24px;
+    margin-right: 24px;
     outline-width: 1.5px;
     outline-color: #90817D;
     background-color: #FCF9F7;
     border-radius: 0px 0px 8px 8px;
     margin-bottom: 24px;
+    margin-right: 16px;
 
     @include lg {
-        width: 75%;
+        width: 98%;
     }
 }
 
@@ -375,22 +384,8 @@
     color: $bronze;
     font-size: 16px;
     padding: 8px;
-    width: 100%;
-    margin-left: 16px;
-    outline-width: 1.5px;
-    outline-color: #90817D;
-    background-color: #FCF9F7;
-    border-radius: 0px 0px 8px 8px;
-    margin-bottom: 24px;
-}
-
-.message_container_input {
-    text-align: left;
-    color: $bronze;
-    font-size: 16px;
-    padding: 8px;
-    width: 100%;
-    margin-left: 16px;
+    width: 95%;
+    margin-left: 24px;
     outline-width: 1.5px;
     outline-color: #90817D;
     background-color: #FCF9F7;
@@ -398,7 +393,26 @@
     margin-bottom: 24px;
 
     @include lg {
-        padding: 75px;
+        width: 98%;
+    }
+}
+
+.message_container_input {
+    text-align: left;
+    color: $bronze;
+    font-size: 16px;
+    padding: 8px;
+    width: 95%;
+    margin-left: 24px;
+    margin-right: 24px;
+    outline-width: 1.5px;
+    outline-color: #90817D;
+    background-color: #FCF9F7;
+    border-radius: 0px 0px 8px 8px;
+    margin-bottom: 24px;
+
+    @include lg {
+        width: 98%;
     }
 }
 
@@ -408,7 +422,7 @@
     font-size: 16px;
     outline: 0;
     padding: 8px;
-    margin-left: 16px;
+    margin-left: 24px;
     border: 0;
     border-radius: 0px 0px 8px 8px;
     width: 15%;
@@ -418,4 +432,9 @@
 
 .message_text {
     text-align: left;
+}
+
+.contact_header1 {
+    padding: 24px;
+    padding-top: 16px;
 }
